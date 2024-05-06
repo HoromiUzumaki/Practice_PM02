@@ -1,0 +1,15 @@
+C:\Users\Horomi_tyan\Documents\ПМ02\MedLab\MedLab\bin\Debug\MedLab.exe.config
+C:\Users\Horomi_tyan\Documents\ПМ02\MedLab\MedLab\bin\Debug\MedLab.exe
+C:\Users\Horomi_tyan\Documents\ПМ02\MedLab\MedLab\bin\Debug\MedLab.pdb
+C:\Users\Horomi_tyan\Documents\ПМ02\MedLab\MedLab\obj\Debug\MedLab.csproj.AssemblyReference.cache
+C:\Users\Horomi_tyan\Documents\ПМ02\MedLab\MedLab\obj\Debug\MainWindow.g.cs
+C:\Users\Horomi_tyan\Documents\ПМ02\MedLab\MedLab\obj\Debug\App.g.cs
+C:\Users\Horomi_tyan\Documents\ПМ02\MedLab\MedLab\obj\Debug\MedLab_MarkupCompile.cache
+C:\Users\Horomi_tyan\Documents\ПМ02\MedLab\MedLab\obj\Debug\MedLab_MarkupCompile.lref
+C:\Users\Horomi_tyan\Documents\ПМ02\MedLab\MedLab\obj\Debug\MainWindow.baml
+C:\Users\Horomi_tyan\Documents\ПМ02\MedLab\MedLab\obj\Debug\MedLab.g.resources
+C:\Users\Horomi_tyan\Documents\ПМ02\MedLab\MedLab\obj\Debug\MedLab.Properties.Resources.resources
+C:\Users\Horomi_tyan\Documents\ПМ02\MedLab\MedLab\obj\Debug\MedLab.csproj.GenerateResource.cache
+C:\Users\Horomi_tyan\Documents\ПМ02\MedLab\MedLab\obj\Debug\MedLab.csproj.CoreCompileInputs.cache
+C:\Users\Horomi_tyan\Documents\ПМ02\MedLab\MedLab\obj\Debug\MedLab.exe
+C:\Users\Horomi_tyan\Documents\ПМ02\MedLab\MedLab\obj\Debug\MedLab.pdb
