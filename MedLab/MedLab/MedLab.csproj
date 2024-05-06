@@ -38,8 +38,17 @@
     <ApplicationIcon>logo.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -58,6 +67,91 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AdminWindow.xaml.cs">
+      <DependentUpon>AdminWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BuhgalterWindow.xaml.cs">
+      <DependentUpon>BuhgalterWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LabIslWindow.xaml.cs">
+      <DependentUpon>LabIslWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LabWindow.xaml.cs">
+      <DependentUpon>LabWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>Лаборатория.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Авторизация.cs">
+      <DependentUpon>Лаборатория.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Анализатор.cs">
+      <DependentUpon>Лаборатория.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Должность.cs">
+      <DependentUpon>Лаборатория.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Дополнительная_информация.cs">
+      <DependentUpon>Лаборатория.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Заказ.cs">
+      <DependentUpon>Лаборатория.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Лаборатория.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Лаборатория.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Лаборатория.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Лаборатория.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Лаборатория.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Лаборатория.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Оказанные_услуги.cs">
+      <DependentUpon>Лаборатория.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Пользователи.cs">
+      <DependentUpon>Лаборатория.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Работа_анализатора.cs">
+      <DependentUpon>Лаборатория.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Статус_заказа.cs">
+      <DependentUpon>Лаборатория.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Статус_услуги.cs">
+      <DependentUpon>Лаборатория.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Страховая_компания.cs">
+      <DependentUpon>Лаборатория.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Тип_страхового_полиса.cs">
+      <DependentUpon>Лаборатория.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Услуга.cs">
+      <DependentUpon>Лаборатория.tt</DependentUpon>
+    </Compile>
+    <Page Include="AdminWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BuhgalterWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LabIslWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LabWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -89,9 +183,17 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <EntityDeploy Include="Лаборатория.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Лаборатория.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Лаборатория.edmx.diagram">
+      <DependentUpon>Лаборатория.edmx</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -99,6 +201,21 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Лаборатория.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Лаборатория.Context.cs</LastGenOutput>
+      <DependentUpon>Лаборатория.edmx</DependentUpon>
+    </Content>
+    <Content Include="Лаборатория.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Лаборатория.edmx</DependentUpon>
+      <LastGenOutput>Лаборатория.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

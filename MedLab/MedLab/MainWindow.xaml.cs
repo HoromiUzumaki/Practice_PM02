@@ -24,5 +24,60 @@ namespace MedLab
         {
             InitializeComponent();
         }
+
+        private void authorization_Click(object sender, RoutedEventArgs e)
+        {
+            if (log.Text == "" || par.Text == "")
+            {
+                MessageBox.Show("Заполните поля");
+                return;
+            }
+
+            using (var bd = new ЛабораторияEntities())
+            {
+                
+                var user = bd.Авторизация.FirstOrDefault(p => p.Логин == log.Text && p.Пароль == par.Text);
+                if (user != null)
+                {
+                   
+                    var role = from pol in bd.Пользователи
+                               join
+                               rol in bd.Должность on pol.Код_должности equals rol.Код_должности
+                               where (pol.Код_пользователя == user.Код_пользователя)
+                               select rol.Наименование;
+                    switch (role.FirstOrDefault())
+                    {
+                        case "Лаборант":
+                            LabWindow la = new LabWindow();
+                            la.Show();
+                            this.Close();
+                            break;
+
+                        case "Лаборант-исследователь":
+                            LabIslWindow lr = new LabIslWindow();
+                            lr.Show();
+                            this.Close();
+                            break;
+
+                        case "Бухгалтер":
+                            BuhgalterWindow ac = new BuhgalterWindow();
+                            ac.Show();
+                            this.Close();
+                            break;
+
+                        case "Администратор":                         
+                            AdminWindow ad = new AdminWindow();
+                            ad.Show();
+                            this.Close();
+                            break;
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Логин или пароль указаны неверно");
+                    return;
+                }
+            }
+        }
     }
 }

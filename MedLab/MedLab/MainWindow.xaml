@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Главное окно" Height="250" Width="400">
     <Grid>
-        <Button x:Name="authorization" Content="Авторизоваться" HorizontalAlignment="Left" Margin="76,155,0,0" VerticalAlignment="Top" Height="44" Width="267" FontFamily="Comic Sans MS" FontSize="20" FontWeight="Bold"/>
+        <Button x:Name="authorization" Background="ForestGreen" Content="Авторизоваться" HorizontalAlignment="Left" Margin="76,155,0,0" VerticalAlignment="Top" Height="44" Width="267" FontFamily="Comic Sans MS" FontSize="20" FontWeight="Bold" Click="authorization_Click"/>
         <TextBox x:Name="log" HorizontalAlignment="Left" Margin="94,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267" FontFamily="Comic Sans MS" Height="21" FontSize="14"/>
         <TextBox x:Name="par" HorizontalAlignment="Left" Margin="94,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267" FontFamily="Comic Sans MS" Height="20" FontSize="14"/>
         <Label Content="Логин" HorizontalAlignment="Left" Margin="45,56,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" FontStyle="Italic" Height="30" Width="49"/>
