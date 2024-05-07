@@ -20,6 +20,7 @@
     <Property Name="Пароль" Type="nvarchar" MaxLength="50" />
     <Property Name="IP_адрес" Type="nvarchar" MaxLength="255" />
     <Property Name="Дата_и_время_входа" Type="datetime" />
+    <Property Name="Время_блокировки" Type="datetime" />
   </EntityType>
   <EntityType Name="Анализатор">
     <Key>

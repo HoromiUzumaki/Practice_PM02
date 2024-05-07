@@ -12,16 +12,17 @@ namespace MedLab
     using System;
     using System.Collections.Generic;
     
-    public partial class Авторизация
+    public partial class Счета_страховым_компаниям
     {
-        public int Код_авторизации { get; set; }
-        public Nullable<int> Код_пользователя { get; set; }
-        public string Логин { get; set; }
-        public string Пароль { get; set; }
-        public string IP_адрес { get; set; }
-        public Nullable<System.DateTime> Дата_и_время_входа { get; set; }
-        public Nullable<System.DateTime> Время_блокировки { get; set; }
+        public int Код_счета { get; set; }
+        public Nullable<int> Код_заказа { get; set; }
+        public Nullable<int> Код_пользователя_оформившего_заказ { get; set; }
+        public Nullable<int> Код_пользователя_ответственного_за_заказ { get; set; }
+        public Nullable<int> Код_страховой_компании { get; set; }
+        public Nullable<decimal> Общая_сумма { get; set; }
     
+        public virtual Заказ Заказ { get; set; }
         public virtual Пользователи Пользователи { get; set; }
+        public virtual Страховая_компания Страховая_компания { get; set; }
     }
 }

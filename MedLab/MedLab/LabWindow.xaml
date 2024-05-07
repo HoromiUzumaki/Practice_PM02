@@ -7,7 +7,10 @@
         mc:Ignorable="d"
         Title="Окно лаборанта" Height="450" Width="800">
     <Grid>
-        <Button Content="Вернуться на главное окно" HorizontalAlignment="Left" Margin="524,311,0,0" VerticalAlignment="Top" Width="186" FontFamily="Comic Sans MS" FontWeight="Bold" Click="Button_Click"/>
+        <Button Content="Вернуться на главное окно" HorizontalAlignment="Left" Margin="91,284,0,0" VerticalAlignment="Top" Width="186" FontFamily="Comic Sans MS" FontWeight="Bold" Click="Button_Click"/>
+        <Rectangle HorizontalAlignment="Center" Height="36" Stroke="ForestGreen" VerticalAlignment="Top" Width="800" Fill="ForestGreen"/>
+        <Button Content="Работа с биоматериалом" HorizontalAlignment="Left" Margin="295,284,0,0" VerticalAlignment="Top" Width="186" FontFamily="Comic Sans MS" FontWeight="Bold" Click="Button_Click_1"/>
+        <Button Content="Сформировать отчеты" HorizontalAlignment="Left" Margin="500,284,0,0" VerticalAlignment="Top" Width="186" FontFamily="Comic Sans MS" FontWeight="Bold" Click="Button_Click_2"/>
 
     </Grid>
 </Window>

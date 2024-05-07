@@ -21,6 +21,7 @@
     <Property Name="IP_адрес" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
     <Property Name="Дата_и_время_входа" Type="DateTime" Precision="3" />
     <NavigationProperty Name="Пользователи" Relationship="Self.FK_Авторизация_Пользователи" FromRole="Авторизация" ToRole="Пользователи" />
+    <Property Name="Время_блокировки" Type="DateTime" Precision="3" />
   </EntityType>
   <EntityType Name="Анализатор">
     <Key>

@@ -18,6 +18,7 @@ namespace MedLab
         public Страховая_компания()
         {
             this.Дополнительная_информация = new HashSet<Дополнительная_информация>();
+            this.Счета_страховым_компаниям = new HashSet<Счета_страховым_компаниям>();
         }
     
         public int Код_страховой_компании { get; set; }
@@ -29,5 +30,7 @@ namespace MedLab
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Дополнительная_информация> Дополнительная_информация { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Счета_страховым_компаниям> Счета_страховым_компаниям { get; set; }
     }
 }

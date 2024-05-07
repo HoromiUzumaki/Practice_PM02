@@ -9,11 +9,11 @@
     <Grid>
         <Button x:Name="authorization" Background="ForestGreen" Content="Авторизоваться" HorizontalAlignment="Left" Margin="76,155,0,0" VerticalAlignment="Top" Height="44" Width="267" FontFamily="Comic Sans MS" FontSize="20" FontWeight="Bold" Click="authorization_Click"/>
         <TextBox x:Name="log" HorizontalAlignment="Left" Margin="94,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267" FontFamily="Comic Sans MS" Height="21" FontSize="14"/>
-        <TextBox x:Name="par" HorizontalAlignment="Left" Margin="94,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="267" FontFamily="Comic Sans MS" Height="20" FontSize="14"/>
         <Label Content="Логин" HorizontalAlignment="Left" Margin="45,56,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" FontStyle="Italic" Height="30" Width="49"/>
         <Label Content="Пароль" HorizontalAlignment="Left" Margin="35,99,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" FontStyle="Italic" Height="29" Width="59"/>
         <Rectangle HorizontalAlignment="Center" Height="36" Stroke="ForestGreen" VerticalAlignment="Top" Width="400" Fill="ForestGreen"/>
         <Label Content="Авторизация" HorizontalAlignment="Left" Margin="127,0,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" Width="165" FontWeight="Bold" FontSize="20"/>
+        <PasswordBox x:Name="par" HorizontalAlignment="Left" Margin="94,0,0,0" VerticalAlignment="Center" Width="267" FontFamily="Comic Sans MS"/>
 
     </Grid>
 </Window>

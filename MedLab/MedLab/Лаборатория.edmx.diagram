@@ -34,6 +34,10 @@
         <AssociationConnector Association="ЛабораторияModel.FK_Работа_анализатора_Оказанные_услуги" ManuallyRouted="false" />
         <AssociationConnector Association="ЛабораторияModel.FK_Услуга_Пользователи" ManuallyRouted="false" />
         <AssociationConnector Association="ЛабораторияModel.FK_Статус_услуги_Услуга" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ЛабораторияModel.Счета_страховым_компаниям" Width="1.5" PointX="8.25" PointY="4.875" />
+        <AssociationConnector Association="ЛабораторияModel.FK_Счета_страховым_компаниям_Заказ" />
+        <AssociationConnector Association="ЛабораторияModel.FK_Счета_страховым_компаниям_Пользователи" />
+        <AssociationConnector Association="ЛабораторияModel.FK_Счета_страховым_компаниям_Страховая_компания" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

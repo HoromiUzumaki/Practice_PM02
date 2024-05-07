@@ -7,7 +7,10 @@
         mc:Ignorable="d"
         Title="Окно бухгалтера" Height="450" Width="800">
     <Grid>
-        <Button Content="Вернуться на главное окно" HorizontalAlignment="Left" Margin="524,311,0,0" VerticalAlignment="Top" Width="186" FontFamily="Comic Sans MS" FontWeight="Bold" Click="Button_Click"/>
+        <Button Content="Вернуться на главное окно" HorizontalAlignment="Left" Margin="36,307,0,0" VerticalAlignment="Top" Width="186" FontFamily="Comic Sans MS" FontWeight="Bold" Click="Button_Click"/>
+        <Rectangle HorizontalAlignment="Center" Height="36" Stroke="ForestGreen" VerticalAlignment="Top" Width="800" Fill="ForestGreen"/>
+        <Button Content="Посмотреть отчеты" HorizontalAlignment="Left" Margin="248,307,0,0" VerticalAlignment="Top" Width="186" FontFamily="Comic Sans MS" FontWeight="Bold" Click="Button_Click_1"/>
+        <Button Content="Сформировать счет страховой компании" HorizontalAlignment="Left" Margin="462,307,0,0" VerticalAlignment="Top" Width="276" FontFamily="Comic Sans MS" FontWeight="Bold" Click="Button_Click_1"/>
 
     </Grid>
 </Window>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,9 +26,18 @@ namespace MedLab
             InitializeComponent();
         }
 
+        private void UpdateTime(int code)
+        {
+            using (var bd = new ЛабораторияEntities())
+            {
+                var user = bd.Авторизация.Where(j => j.Код_пользователя == code).FirstOrDefault();
+                user.Дата_и_время_входа = DateTime.Now;
+                bd.SaveChanges();
+            }   
+        }
         private void authorization_Click(object sender, RoutedEventArgs e)
         {
-            if (log.Text == "" || par.Text == "")
+            if (log.Text == "" || par.Password == "")
             {
                 MessageBox.Show("Заполните поля");
                 return;
@@ -36,10 +46,15 @@ namespace MedLab
             using (var bd = new ЛабораторияEntities())
             {
                 
-                var user = bd.Авторизация.FirstOrDefault(p => p.Логин == log.Text && p.Пароль == par.Text);
+                var user = bd.Авторизация.FirstOrDefault(p => p.Логин == log.Text && p.Пароль == par.Password);
                 if (user != null)
                 {
-                   
+                    if ((user.Время_блокировки != null) && (Convert.ToInt32((DateTime.Now - user.Время_блокировки).Value.TotalMinutes) <= 30))
+                    {
+                        MessageBox.Show($"Учетная запись временно заблокированна. До конца блокировки {30 - ((DateTime.Now - user.Время_блокировки).Value.Minutes)} минут.");
+                        return;
+                    }
+
                     var role = from pol in bd.Пользователи
                                join
                                rol in bd.Должность on pol.Код_должности equals rol.Код_должности
@@ -48,24 +63,28 @@ namespace MedLab
                     switch (role.FirstOrDefault())
                     {
                         case "Лаборант":
+                            UpdateTime(Convert.ToInt32(user.Код_пользователя));
                             LabWindow la = new LabWindow();
                             la.Show();
                             this.Close();
                             break;
 
                         case "Лаборант-исследователь":
+                            UpdateTime(Convert.ToInt32(user.Код_пользователя));
                             LabIslWindow lr = new LabIslWindow();
                             lr.Show();
                             this.Close();
                             break;
 
                         case "Бухгалтер":
+                            UpdateTime(Convert.ToInt32(user.Код_пользователя));
                             BuhgalterWindow ac = new BuhgalterWindow();
                             ac.Show();
                             this.Close();
                             break;
 
-                        case "Администратор":                         
+                        case "Администратор":
+                            UpdateTime(Convert.ToInt32(user.Код_пользователя));
                             AdminWindow ad = new AdminWindow();
                             ad.Show();
                             this.Close();

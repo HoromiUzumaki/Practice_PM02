@@ -15,6 +15,7 @@
     <EntitySetMapping Name="Авторизация">
       <EntityTypeMapping TypeName="ЛабораторияModel.Авторизация">
         <MappingFragment StoreEntitySet="Авторизация">
+          <ScalarProperty Name="Время_блокировки" ColumnName="Время_блокировки" />
           <ScalarProperty Name="Код_авторизации" ColumnName="Код_авторизации" />
           <ScalarProperty Name="Код_пользователя" ColumnName="Код_пользователя" />
           <ScalarProperty Name="Логин" ColumnName="Логин" />

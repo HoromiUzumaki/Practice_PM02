@@ -39,5 +39,6 @@ namespace MedLab
         public virtual DbSet<Страховая_компания> Страховая_компания { get; set; }
         public virtual DbSet<Тип_страхового_полиса> Тип_страхового_полиса { get; set; }
         public virtual DbSet<Услуга> Услуга { get; set; }
+        public virtual DbSet<Счета_страховым_компаниям> Счета_страховым_компаниям { get; set; }
     }
 }

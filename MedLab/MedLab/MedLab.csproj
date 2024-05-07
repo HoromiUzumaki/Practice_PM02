@@ -130,6 +130,9 @@
     <Compile Include="Страховая_компания.cs">
       <DependentUpon>Лаборатория.tt</DependentUpon>
     </Compile>
+    <Compile Include="Счета_страховым_компаниям.cs">
+      <DependentUpon>Лаборатория.tt</DependentUpon>
+    </Compile>
     <Compile Include="Тип_страхового_полиса.cs">
       <DependentUpon>Лаборатория.tt</DependentUpon>
     </Compile>

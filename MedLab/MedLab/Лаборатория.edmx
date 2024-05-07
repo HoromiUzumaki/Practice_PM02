@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="Хранилище ЛабораторияModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="Хранилище ЛабораторияModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="sysdiagrams">
           <Key>
             <PropertyRef Name="diagram_id" />
@@ -25,6 +25,7 @@
           <Property Name="Пароль" Type="nvarchar" MaxLength="50" />
           <Property Name="IP_адрес" Type="nvarchar" MaxLength="255" />
           <Property Name="Дата_и_время_входа" Type="datetime" />
+          <Property Name="Время_блокировки" Type="datetime" />
         </EntityType>
         <EntityType Name="Анализатор">
           <Key>
@@ -123,6 +124,17 @@
           <Property Name="ИНН" Type="bigint" />
           <Property Name="Расчетный_счет" Type="bigint" />
           <Property Name="Банковский_идентификационный_номер" Type="bigint" />
+        </EntityType>
+        <EntityType Name="Счета_страховым_компаниям">
+          <Key>
+            <PropertyRef Name="Код_счета" />
+          </Key>
+          <Property Name="Код_счета" Type="int" Nullable="false" />
+          <Property Name="Код_заказа" Type="int" />
+          <Property Name="Код_пользователя_оформившего_заказ" Type="int" />
+          <Property Name="Код_пользователя_ответственного_за_заказ" Type="int" />
+          <Property Name="Код_страховой_компании" Type="int" />
+          <Property Name="Общая_сумма" Type="money" />
         </EntityType>
         <EntityType Name="Тип_страхового_полиса">
           <Key>
@@ -297,6 +309,42 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="FK_Счета_страховым_компаниям_Заказ">
+          <End Role="Заказ" Type="Self.Заказ" Multiplicity="0..1" />
+          <End Role="Счета_страховым_компаниям" Type="Self.Счета_страховым_компаниям" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Заказ">
+              <PropertyRef Name="Код_заказа" />
+            </Principal>
+            <Dependent Role="Счета_страховым_компаниям">
+              <PropertyRef Name="Код_заказа" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Счета_страховым_компаниям_Пользователи">
+          <End Role="Пользователи" Type="Self.Пользователи" Multiplicity="0..1" />
+          <End Role="Счета_страховым_компаниям" Type="Self.Счета_страховым_компаниям" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Пользователи">
+              <PropertyRef Name="Код_пользователя" />
+            </Principal>
+            <Dependent Role="Счета_страховым_компаниям">
+              <PropertyRef Name="Код_пользователя_ответственного_за_заказ" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Счета_страховым_компаниям_Страховая_компания">
+          <End Role="Страховая_компания" Type="Self.Страховая_компания" Multiplicity="0..1" />
+          <End Role="Счета_страховым_компаниям" Type="Self.Счета_страховым_компаниям" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Страховая_компания">
+              <PropertyRef Name="Код_страховой_компании" />
+            </Principal>
+            <Dependent Role="Счета_страховым_компаниям">
+              <PropertyRef Name="Код_страховой_компании" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="FK_Услуга_Должность">
           <End Role="Должность" Type="Self.Должность" Multiplicity="0..1" />
           <End Role="Услуга" Type="Self.Услуга" Multiplicity="*" />
@@ -334,6 +382,7 @@
           <EntitySet Name="Статус_заказа" EntityType="Self.Статус_заказа" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Статус_услуги" EntityType="Self.Статус_услуги" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Страховая_компания" EntityType="Self.Страховая_компания" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Счета_страховым_компаниям" EntityType="Self.Счета_страховым_компаниям" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Тип_страхового_полиса" EntityType="Self.Тип_страхового_полиса" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Услуга" EntityType="Self.Услуга" Schema="dbo" store:Type="Tables" />
           <AssociationSet Name="FK_Авторизация_Пользователи" Association="Self.FK_Авторизация_Пользователи">
@@ -388,6 +437,18 @@
             <End Role="Услуга" EntitySet="Услуга" />
             <End Role="Статус_услуги" EntitySet="Статус_услуги" />
           </AssociationSet>
+          <AssociationSet Name="FK_Счета_страховым_компаниям_Заказ" Association="Self.FK_Счета_страховым_компаниям_Заказ">
+            <End Role="Заказ" EntitySet="Заказ" />
+            <End Role="Счета_страховым_компаниям" EntitySet="Счета_страховым_компаниям" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Счета_страховым_компаниям_Пользователи" Association="Self.FK_Счета_страховым_компаниям_Пользователи">
+            <End Role="Пользователи" EntitySet="Пользователи" />
+            <End Role="Счета_страховым_компаниям" EntitySet="Счета_страховым_компаниям" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Счета_страховым_компаниям_Страховая_компания" Association="Self.FK_Счета_страховым_компаниям_Страховая_компания">
+            <End Role="Страховая_компания" EntitySet="Страховая_компания" />
+            <End Role="Счета_страховым_компаниям" EntitySet="Счета_страховым_компаниям" />
+          </AssociationSet>
           <AssociationSet Name="FK_Услуга_Должность" Association="Self.FK_Услуга_Должность">
             <End Role="Должность" EntitySet="Должность" />
             <End Role="Услуга" EntitySet="Услуга" />
@@ -397,8 +458,7 @@
             <End Role="Услуга" EntitySet="Услуга" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="ЛабораторияModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -423,6 +483,7 @@
           <Property Name="IP_адрес" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
           <Property Name="Дата_и_время_входа" Type="DateTime" Precision="3" />
           <NavigationProperty Name="Пользователи" Relationship="Self.FK_Авторизация_Пользователи" FromRole="Авторизация" ToRole="Пользователи" />
+          <Property Name="Время_блокировки" Type="DateTime" Precision="3" />
         </EntityType>
         <EntityType Name="Анализатор">
           <Key>
@@ -472,6 +533,7 @@
           <NavigationProperty Name="Пользователи" Relationship="Self.FK_Заказ_Пользователи" FromRole="Заказ" ToRole="Пользователи" />
           <NavigationProperty Name="Статус_заказа" Relationship="Self.FK_Заказ_Статус_заказа" FromRole="Заказ" ToRole="Статус_заказа" />
           <NavigationProperty Name="Оказанные_услуги" Relationship="Self.FK_Оказанные_услуги_Заказ" FromRole="Заказ" ToRole="Оказанные_услуги" />
+          <NavigationProperty Name="Счета_страховым_компаниям" Relationship="ЛабораторияModel.FK_Счета_страховым_компаниям_Заказ" FromRole="Заказ" ToRole="Счета_страховым_компаниям" />
         </EntityType>
         <EntityType Name="Оказанные_услуги">
           <Key>
@@ -504,6 +566,7 @@
           <NavigationProperty Name="Заказ" Relationship="Self.FK_Заказ_Пользователи" FromRole="Пользователи" ToRole="Заказ" />
           <NavigationProperty Name="Оказанные_услуги" Relationship="Self.FK_Оказанные_услуги_Пользователи" FromRole="Пользователи" ToRole="Оказанные_услуги" />
           <NavigationProperty Name="Услуга" Relationship="Self.FK_Услуга_Пользователи" FromRole="Пользователи" ToRole="Услуга" />
+          <NavigationProperty Name="Счета_страховым_компаниям" Relationship="ЛабораторияModel.FK_Счета_страховым_компаниям_Пользователи" FromRole="Пользователи" ToRole="Счета_страховым_компаниям" />
         </EntityType>
         <EntityType Name="Работа_анализатора">
           <Key>
@@ -545,6 +608,7 @@
           <Property Name="Расчетный_счет" Type="Int64" />
           <Property Name="Банковский_идентификационный_номер" Type="Int64" />
           <NavigationProperty Name="Дополнительная_информация" Relationship="Self.FK_Дополнительная_информация_Страховая_компания" FromRole="Страховая_компания" ToRole="Дополнительная_информация" />
+          <NavigationProperty Name="Счета_страховым_компаниям" Relationship="ЛабораторияModel.FK_Счета_страховым_компаниям_Страховая_компания" FromRole="Страховая_компания" ToRole="Счета_страховым_компаниям" />
         </EntityType>
         <EntityType Name="Тип_страхового_полиса">
           <Key>
@@ -823,7 +887,70 @@
             <End Role="Услуга" EntitySet="Услуга" />
             <End Role="Статус_услуги" EntitySet="Статус_услуги" />
           </AssociationSet>
+          <EntitySet Name="Счета_страховым_компаниям" EntityType="ЛабораторияModel.Счета_страховым_компаниям" />
+          <AssociationSet Name="FK_Счета_страховым_компаниям_Заказ" Association="ЛабораторияModel.FK_Счета_страховым_компаниям_Заказ">
+            <End Role="Заказ" EntitySet="Заказ" />
+            <End Role="Счета_страховым_компаниям" EntitySet="Счета_страховым_компаниям" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Счета_страховым_компаниям_Пользователи" Association="ЛабораторияModel.FK_Счета_страховым_компаниям_Пользователи">
+            <End Role="Пользователи" EntitySet="Пользователи" />
+            <End Role="Счета_страховым_компаниям" EntitySet="Счета_страховым_компаниям" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Счета_страховым_компаниям_Страховая_компания" Association="ЛабораторияModel.FK_Счета_страховым_компаниям_Страховая_компания">
+            <End Role="Страховая_компания" EntitySet="Страховая_компания" />
+            <End Role="Счета_страховым_компаниям" EntitySet="Счета_страховым_компаниям" />
+          </AssociationSet>
         </EntityContainer>
+        <EntityType Name="Счета_страховым_компаниям">
+          <Key>
+            <PropertyRef Name="Код_счета" />
+          </Key>
+          <Property Name="Код_счета" Type="Int32" Nullable="false" />
+          <Property Name="Код_заказа" Type="Int32" />
+          <Property Name="Код_пользователя_оформившего_заказ" Type="Int32" />
+          <Property Name="Код_пользователя_ответственного_за_заказ" Type="Int32" />
+          <Property Name="Код_страховой_компании" Type="Int32" />
+          <Property Name="Общая_сумма" Type="Decimal" Precision="19" Scale="4" />
+          <NavigationProperty Name="Заказ" Relationship="ЛабораторияModel.FK_Счета_страховым_компаниям_Заказ" FromRole="Счета_страховым_компаниям" ToRole="Заказ" />
+          <NavigationProperty Name="Пользователи" Relationship="ЛабораторияModel.FK_Счета_страховым_компаниям_Пользователи" FromRole="Счета_страховым_компаниям" ToRole="Пользователи" />
+          <NavigationProperty Name="Страховая_компания" Relationship="ЛабораторияModel.FK_Счета_страховым_компаниям_Страховая_компания" FromRole="Счета_страховым_компаниям" ToRole="Страховая_компания" />
+        </EntityType>
+        <Association Name="FK_Счета_страховым_компаниям_Заказ">
+          <End Type="ЛабораторияModel.Заказ" Role="Заказ" Multiplicity="0..1" />
+          <End Type="ЛабораторияModel.Счета_страховым_компаниям" Role="Счета_страховым_компаниям" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Заказ">
+              <PropertyRef Name="Код_заказа" />
+            </Principal>
+            <Dependent Role="Счета_страховым_компаниям">
+              <PropertyRef Name="Код_заказа" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Счета_страховым_компаниям_Пользователи">
+          <End Type="ЛабораторияModel.Пользователи" Role="Пользователи" Multiplicity="0..1" />
+          <End Type="ЛабораторияModel.Счета_страховым_компаниям" Role="Счета_страховым_компаниям" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Пользователи">
+              <PropertyRef Name="Код_пользователя" />
+            </Principal>
+            <Dependent Role="Счета_страховым_компаниям">
+              <PropertyRef Name="Код_пользователя_ответственного_за_заказ" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Счета_страховым_компаниям_Страховая_компания">
+          <End Type="ЛабораторияModel.Страховая_компания" Role="Страховая_компания" Multiplicity="0..1" />
+          <End Type="ЛабораторияModel.Счета_страховым_компаниям" Role="Счета_страховым_компаниям" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Страховая_компания">
+              <PropertyRef Name="Код_страховой_компании" />
+            </Principal>
+            <Dependent Role="Счета_страховым_компаниям">
+              <PropertyRef Name="Код_страховой_компании" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -844,6 +971,7 @@
           <EntitySetMapping Name="Авторизация">
             <EntityTypeMapping TypeName="ЛабораторияModel.Авторизация">
               <MappingFragment StoreEntitySet="Авторизация">
+                <ScalarProperty Name="Время_блокировки" ColumnName="Время_блокировки" />
                 <ScalarProperty Name="Код_авторизации" ColumnName="Код_авторизации" />
                 <ScalarProperty Name="Код_пользователя" ColumnName="Код_пользователя" />
                 <ScalarProperty Name="Логин" ColumnName="Логин" />
@@ -977,6 +1105,18 @@
                 <ScalarProperty Name="Стоимость_услуги" ColumnName="Стоимость_услуги" />
                 <ScalarProperty Name="Код_сотрудника_ответственного_за_услугу" ColumnName="Код_сотрудника_ответственного_за_услугу" />
                 <ScalarProperty Name="Код_должности_сотрудника" ColumnName="Код_должности_сотрудника" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Счета_страховым_компаниям">
+            <EntityTypeMapping TypeName="ЛабораторияModel.Счета_страховым_компаниям">
+              <MappingFragment StoreEntitySet="Счета_страховым_компаниям">
+                <ScalarProperty Name="Общая_сумма" ColumnName="Общая_сумма" />
+                <ScalarProperty Name="Код_страховой_компании" ColumnName="Код_страховой_компании" />
+                <ScalarProperty Name="Код_пользователя_ответственного_за_заказ" ColumnName="Код_пользователя_ответственного_за_заказ" />
+                <ScalarProperty Name="Код_пользователя_оформившего_заказ" ColumnName="Код_пользователя_оформившего_заказ" />
+                <ScalarProperty Name="Код_заказа" ColumnName="Код_заказа" />
+                <ScalarProperty Name="Код_счета" ColumnName="Код_счета" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
