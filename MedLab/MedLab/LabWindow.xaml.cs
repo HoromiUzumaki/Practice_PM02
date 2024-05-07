@@ -33,12 +33,16 @@ namespace MedLab
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-
+            biomaterials bb = new biomaterials();
+            bb.Show();
+            this.Close();
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-
+            generating_reports gr = new generating_reports();
+            gr.Show();
+            this.Close();
         }
     }
 }

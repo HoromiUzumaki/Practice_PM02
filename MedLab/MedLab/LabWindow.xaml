@@ -5,12 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MedLab"
         mc:Ignorable="d"
-        Title="Окно лаборанта" Height="450" Width="800">
+        Title="Окно лаборанта" Height="350" Width="800">
     <Grid>
-        <Button Content="Вернуться на главное окно" HorizontalAlignment="Left" Margin="91,284,0,0" VerticalAlignment="Top" Width="186" FontFamily="Comic Sans MS" FontWeight="Bold" Click="Button_Click"/>
+        <Button Content="Вернуться на главное окно" HorizontalAlignment="Left" Margin="88,154,0,0" VerticalAlignment="Top" Width="195" FontFamily="Comic Sans MS" FontWeight="Bold" Click="Button_Click" Height="117"/>
         <Rectangle HorizontalAlignment="Center" Height="36" Stroke="ForestGreen" VerticalAlignment="Top" Width="800" Fill="ForestGreen"/>
-        <Button Content="Работа с биоматериалом" HorizontalAlignment="Left" Margin="295,284,0,0" VerticalAlignment="Top" Width="186" FontFamily="Comic Sans MS" FontWeight="Bold" Click="Button_Click_1"/>
-        <Button Content="Сформировать отчеты" HorizontalAlignment="Left" Margin="500,284,0,0" VerticalAlignment="Top" Width="186" FontFamily="Comic Sans MS" FontWeight="Bold" Click="Button_Click_2"/>
+        <Button Content="Работа с биоматериалом" HorizontalAlignment="Left" Margin="301,154,0,0" VerticalAlignment="Top" Width="186" FontFamily="Comic Sans MS" FontWeight="Bold" Click="Button_Click_1" Height="117"/>
+        <Button Content="Сформировать отчеты" HorizontalAlignment="Left" Margin="506,154,0,0" VerticalAlignment="Top" Width="186" FontFamily="Comic Sans MS" FontWeight="Bold" Click="Button_Click_2" Height="117"/>
+        <Label Content="Выберите желаемый функционал:" HorizontalAlignment="Left" Margin="222,60,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="20" FontWeight="Bold"/>
 
     </Grid>
 </Window>

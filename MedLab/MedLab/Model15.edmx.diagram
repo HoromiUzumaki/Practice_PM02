@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fdf4527603f74f149146d4d49bc3cebb" Name="Diagram1">
+        <EntityTypeShape EntityType="ЛабораторияModel5.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ЛабораторияModel5.Авторизация" Width="1.5" PointX="5.25" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="ЛабораторияModel5.Анализатор" Width="1.5" PointX="10.5" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ЛабораторияModel5.Должность" Width="1.5" PointX="0.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ЛабораторияModel5.Дополнительная_информация" Width="1.5" PointX="8.25" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ЛабораторияModel5.Заказ" Width="1.5" PointX="5.25" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ЛабораторияModel5.Оказанные_услуги" Width="1.5" PointX="10.5" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ЛабораторияModel5.Пользователи" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ЛабораторияModel5.Работа_анализатора" Width="1.5" PointX="12.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ЛабораторияModel5.Работа_с_биоматериалами" Width="1.5" PointX="5.25" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="ЛабораторияModel5.Статус_заказа" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ЛабораторияModel5.Статус_услуги" Width="1.5" PointX="10.5" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ЛабораторияModel5.Страховая_компания" Width="1.5" PointX="5.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ЛабораторияModel5.Счета_страховым_компаниям" Width="1.5" PointX="7.5" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="ЛабораторияModel5.Тип_страхового_полиса" Width="1.5" PointX="6" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ЛабораторияModel5.Услуга" Width="1.5" PointX="8.25" PointY="6.875" IsExpanded="true" />
+        <AssociationConnector Association="ЛабораторияModel5.FK_Авторизация_Пользователи" ManuallyRouted="false" />
+        <AssociationConnector Association="ЛабораторияModel5.FK_Работа_анализатора_Анализатор" ManuallyRouted="false" />
+        <AssociationConnector Association="ЛабораторияModel5.FK_Пользователи_Должность" ManuallyRouted="false" />
+        <AssociationConnector Association="ЛабораторияModel5.FK_Работа_с_биоматериалами_Должность" ManuallyRouted="false" />
+        <AssociationConnector Association="ЛабораторияModel5.FK_Услуга_Должность" ManuallyRouted="false" />
+        <AssociationConnector Association="ЛабораторияModel5.FK_Дополнительная_информация_Пользователи" ManuallyRouted="false" />
+        <AssociationConnector Association="ЛабораторияModel5.FK_Дополнительная_информация_Страховая_компания" ManuallyRouted="false" />
+        <AssociationConnector Association="ЛабораторияModel5.FK_Дополнительная_информация_Тип_страхового_полиса" ManuallyRouted="false" />
+        <AssociationConnector Association="ЛабораторияModel5.FK_Заказ_Пользователи" ManuallyRouted="false" />
+        <AssociationConnector Association="ЛабораторияModel5.FK_Заказ_Статус_заказа" ManuallyRouted="false" />
+        <AssociationConnector Association="ЛабораторияModel5.FK_Оказанные_услуги_Заказ" ManuallyRouted="false" />
+        <AssociationConnector Association="ЛабораторияModel5.FK_Счета_страховым_компаниям_Заказ" ManuallyRouted="false" />
+        <AssociationConnector Association="ЛабораторияModel5.FK_Оказанные_услуги_Пользователи" ManuallyRouted="false" />
+        <AssociationConnector Association="ЛабораторияModel5.FK_Оказанные_услуги_Услуга1" ManuallyRouted="false" />
+        <AssociationConnector Association="ЛабораторияModel5.FK_Работа_анализатора_Оказанные_услуги" ManuallyRouted="false" />
+        <AssociationConnector Association="ЛабораторияModel5.FK_Работа_с_биоматериалами_Пользователи" ManuallyRouted="false" />
+        <AssociationConnector Association="ЛабораторияModel5.FK_Счета_страховым_компаниям_Пользователи" ManuallyRouted="false" />
+        <AssociationConnector Association="ЛабораторияModel5.FK_Услуга_Пользователи" ManuallyRouted="false" />
+        <AssociationConnector Association="ЛабораторияModel5.FK_Статус_услуги_Услуга" ManuallyRouted="false" />
+        <AssociationConnector Association="ЛабораторияModel5.FK_Счета_страховым_компаниям_Страховая_компания" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Horomi_tyan\Desktop\MedLab\MedLab\App.xaml
-51647107664
-2917987637
-26686637429
+81779109435
+243841119
+31538533426
 18-866200235
-AdminWindow.xaml;BuhgalterWindow.xaml;LabIslWindow.xaml;LabWindow.xaml;MainWindow.xaml;
+AdminWindow.xaml;analizators.xaml;biomaterials.xaml;BuhgalterWindow.xaml;generating reports.xaml;LabIslWindow.xaml;LabWindow.xaml;MainWindow.xaml;
 
 False
 

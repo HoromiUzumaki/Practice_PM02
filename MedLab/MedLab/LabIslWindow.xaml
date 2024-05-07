@@ -5,11 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MedLab"
         mc:Ignorable="d"
-        Title="Окно лаборанта-исследователя" Height="450" Width="800">
+        Title="Окно лаборанта-исследователя" Height="250" Width="800">
     <Grid>
-        <Button Content="Вернуться на главное окно" HorizontalAlignment="Left" Margin="42,315,0,0" VerticalAlignment="Top" Width="186" FontFamily="Comic Sans MS" FontWeight="Bold" Click="Button_Click"/>
+        <Button Content="Вернуться на главное окно" HorizontalAlignment="Left" Margin="128,144,0,0" VerticalAlignment="Top" Width="204" FontFamily="Comic Sans MS" FontWeight="Bold" Click="Button_Click" Height="73"/>
         <Rectangle HorizontalAlignment="Center" Height="36" Stroke="ForestGreen" VerticalAlignment="Top" Width="800" Fill="ForestGreen"/>
-        <Button Content="Работа с анализатором" HorizontalAlignment="Left" Margin="253,315,0,0" VerticalAlignment="Top" Width="186" FontFamily="Comic Sans MS" FontWeight="Bold" Click="Button_Click_1"/>
+        <Button Content="Работа с анализатором" HorizontalAlignment="Left" Margin="464,144,0,0" VerticalAlignment="Top" Width="200" FontFamily="Comic Sans MS" FontWeight="Bold" Click="Button_Click_1" Height="73"/>
+        <Label Content="Выберите желаемый функционал:" HorizontalAlignment="Left" Margin="222,60,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="20" FontWeight="Bold"/>
 
     </Grid>
 </Window>

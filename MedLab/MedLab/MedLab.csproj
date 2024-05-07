@@ -70,8 +70,17 @@
     <Compile Include="AdminWindow.xaml.cs">
       <DependentUpon>AdminWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="analizators.xaml.cs">
+      <DependentUpon>analizators.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="biomaterials.xaml.cs">
+      <DependentUpon>biomaterials.xaml</DependentUpon>
+    </Compile>
     <Compile Include="BuhgalterWindow.xaml.cs">
       <DependentUpon>BuhgalterWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="generating reports.xaml.cs">
+      <DependentUpon>generating reports.xaml</DependentUpon>
     </Compile>
     <Compile Include="LabIslWindow.xaml.cs">
       <DependentUpon>LabIslWindow.xaml</DependentUpon>
@@ -79,71 +88,79 @@
     <Compile Include="LabWindow.xaml.cs">
       <DependentUpon>LabWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model15.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model15.tt</DependentUpon>
+    </Compile>
     <Compile Include="sysdiagrams.cs">
-      <DependentUpon>Лаборатория.tt</DependentUpon>
+      <DependentUpon>Model15.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Wiew reports.xaml.cs">
+      <DependentUpon>Wiew reports.xaml</DependentUpon>
     </Compile>
     <Compile Include="Авторизация.cs">
-      <DependentUpon>Лаборатория.tt</DependentUpon>
+      <DependentUpon>Model15.tt</DependentUpon>
     </Compile>
     <Compile Include="Анализатор.cs">
-      <DependentUpon>Лаборатория.tt</DependentUpon>
+      <DependentUpon>Model15.tt</DependentUpon>
     </Compile>
     <Compile Include="Должность.cs">
-      <DependentUpon>Лаборатория.tt</DependentUpon>
+      <DependentUpon>Model15.tt</DependentUpon>
     </Compile>
     <Compile Include="Дополнительная_информация.cs">
-      <DependentUpon>Лаборатория.tt</DependentUpon>
+      <DependentUpon>Model15.tt</DependentUpon>
     </Compile>
     <Compile Include="Заказ.cs">
-      <DependentUpon>Лаборатория.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Лаборатория.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Лаборатория.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Лаборатория.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Лаборатория.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Лаборатория.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Лаборатория.edmx</DependentUpon>
+      <DependentUpon>Model15.tt</DependentUpon>
     </Compile>
     <Compile Include="Оказанные_услуги.cs">
-      <DependentUpon>Лаборатория.tt</DependentUpon>
+      <DependentUpon>Model15.tt</DependentUpon>
     </Compile>
     <Compile Include="Пользователи.cs">
-      <DependentUpon>Лаборатория.tt</DependentUpon>
+      <DependentUpon>Model15.tt</DependentUpon>
     </Compile>
     <Compile Include="Работа_анализатора.cs">
-      <DependentUpon>Лаборатория.tt</DependentUpon>
+      <DependentUpon>Model15.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Работа_с_биоматериалами.cs">
+      <DependentUpon>Model15.tt</DependentUpon>
     </Compile>
     <Compile Include="Статус_заказа.cs">
-      <DependentUpon>Лаборатория.tt</DependentUpon>
+      <DependentUpon>Model15.tt</DependentUpon>
     </Compile>
     <Compile Include="Статус_услуги.cs">
-      <DependentUpon>Лаборатория.tt</DependentUpon>
+      <DependentUpon>Model15.tt</DependentUpon>
     </Compile>
     <Compile Include="Страховая_компания.cs">
-      <DependentUpon>Лаборатория.tt</DependentUpon>
+      <DependentUpon>Model15.tt</DependentUpon>
     </Compile>
     <Compile Include="Счета_страховым_компаниям.cs">
-      <DependentUpon>Лаборатория.tt</DependentUpon>
+      <DependentUpon>Model15.tt</DependentUpon>
     </Compile>
     <Compile Include="Тип_страхового_полиса.cs">
-      <DependentUpon>Лаборатория.tt</DependentUpon>
+      <DependentUpon>Model15.tt</DependentUpon>
     </Compile>
     <Compile Include="Услуга.cs">
-      <DependentUpon>Лаборатория.tt</DependentUpon>
+      <DependentUpon>Model15.tt</DependentUpon>
     </Compile>
     <Page Include="AdminWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="analizators.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="biomaterials.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="BuhgalterWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="generating reports.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -167,8 +184,22 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Wiew reports.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model15.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model15.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model15.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -186,17 +217,17 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EntityDeploy Include="Model15.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model15.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Model15.edmx.diagram">
+      <DependentUpon>Model15.edmx</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <EntityDeploy Include="Лаборатория.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Лаборатория.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="Лаборатория.edmx.diagram">
-      <DependentUpon>Лаборатория.edmx</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -206,19 +237,19 @@
     <Resource Include="logo.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Лаборатория.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Лаборатория.Context.cs</LastGenOutput>
-      <DependentUpon>Лаборатория.edmx</DependentUpon>
-    </Content>
-    <Content Include="Лаборатория.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Лаборатория.edmx</DependentUpon>
-      <LastGenOutput>Лаборатория.cs</LastGenOutput>
-    </Content>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Content Include="Model15.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model15.edmx</DependentUpon>
+      <LastGenOutput>Model15.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Model15.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model15.edmx</DependentUpon>
+      <LastGenOutput>Model15.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

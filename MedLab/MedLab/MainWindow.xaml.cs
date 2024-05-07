@@ -28,7 +28,7 @@ namespace MedLab
 
         private void UpdateTime(int code)
         {
-            using (var bd = new ЛабораторияEntities())
+            using (var bd = new ЛабораторияEntities5())
             {
                 var user = bd.Авторизация.Where(j => j.Код_пользователя == code).FirstOrDefault();
                 user.Дата_и_время_входа = DateTime.Now;
@@ -43,7 +43,7 @@ namespace MedLab
                 return;
             }
 
-            using (var bd = new ЛабораторияEntities())
+            using (var bd = new ЛабораторияEntities5())
             {
                 
                 var user = bd.Авторизация.FirstOrDefault(p => p.Логин == log.Text && p.Пароль == par.Password);

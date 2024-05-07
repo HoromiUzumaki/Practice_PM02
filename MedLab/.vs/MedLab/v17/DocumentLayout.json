@@ -3,48 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\medlab\\buhgalterwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\buhgalterwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|c:\\users\\horomi_tyan\\desktop\\medlab\\medlab\\analizators.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\analizators.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\medlab\\labislwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\labislwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|c:\\users\\horomi_tyan\\desktop\\medlab\\medlab\\analizators.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\analizators.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\medlab\\labwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\labwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\medlab\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|c:\\users\\horomi_tyan\\desktop\\medlab\\medlab\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\medlab\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\medlab\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\medlab\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\medlab\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\medlab\\buhgalterwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\buhgalterwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|c:\\users\\horomi_tyan\\desktop\\medlab\\medlab\\labwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\labwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\medlab\\labislwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\labislwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\medlab\\labislwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\labislwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|c:\\users\\horomi_tyan\\desktop\\medlab\\medlab\\model15.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\model15.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\medlab\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\medlab\\buhgalterwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\buhgalterwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,95 +58,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LabWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\LabWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MedLab\\LabWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\LabWindow.xaml.cs",
-              "RelativeToolTip": "MedLab\\LabWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "AdminWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\AdminWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MedLab\\AdminWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\AdminWindow.xaml.cs",
+              "RelativeToolTip": "MedLab\\AdminWindow.xaml.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwDEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T17:46:32.193Z",
+              "WhenOpened": "2024-05-07T17:33:34.942Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LabIslWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\LabIslWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MedLab\\LabIslWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\LabIslWindow.xaml.cs",
-              "RelativeToolTip": "MedLab\\LabIslWindow.xaml.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAkwB4AAAAZAAAA",
+              "DocumentIndex": 1,
+              "Title": "analizators.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\analizators.xaml.cs",
+              "RelativeDocumentMoniker": "MedLab\\analizators.xaml.cs",
+              "ToolTip": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\analizators.xaml.cs",
+              "RelativeToolTip": "MedLab\\analizators.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFgAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T17:46:20.364Z",
+              "WhenOpened": "2024-05-07T17:25:40.418Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
+              "Title": "analizators.xaml",
+              "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\analizators.xaml",
+              "RelativeDocumentMoniker": "MedLab\\analizators.xaml",
+              "ToolTip": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\analizators.xaml",
+              "RelativeToolTip": "MedLab\\analizators.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-07T17:13:49.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Model15.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\Model15.edmx",
+              "RelativeDocumentMoniker": "MedLab\\Model15.edmx",
+              "ToolTip": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\Model15.edmx [Diagram1]",
+              "RelativeToolTip": "MedLab\\Model15.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-05-07T17:05:31.045Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "BuhgalterWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\BuhgalterWindow.xaml.cs",
               "RelativeDocumentMoniker": "MedLab\\BuhgalterWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\BuhgalterWindow.xaml.cs",
               "RelativeToolTip": "MedLab\\BuhgalterWindow.xaml.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAkwB4AAAAZAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwB4AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T17:45:46.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AdminWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\AdminWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MedLab\\AdminWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\AdminWindow.xaml.cs",
-              "RelativeToolTip": "MedLab\\AdminWindow.xaml.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAkwB4AAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T17:43:25.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LabWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\LabWindow.xaml",
-              "RelativeDocumentMoniker": "MedLab\\LabWindow.xaml",
-              "ToolTip": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\LabWindow.xaml",
-              "RelativeToolTip": "MedLab\\LabWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-06T17:41:56.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LabIslWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\LabIslWindow.xaml",
-              "RelativeDocumentMoniker": "MedLab\\LabIslWindow.xaml",
-              "ToolTip": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\LabIslWindow.xaml",
-              "RelativeToolTip": "MedLab\\LabIslWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-06T17:41:53.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BuhgalterWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\BuhgalterWindow.xaml",
-              "RelativeDocumentMoniker": "MedLab\\BuhgalterWindow.xaml",
-              "ToolTip": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\BuhgalterWindow.xaml",
-              "RelativeToolTip": "MedLab\\BuhgalterWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-06T17:41:51.862Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "AdminWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\AdminWindow.xaml",
               "RelativeDocumentMoniker": "MedLab\\AdminWindow.xaml",
@@ -162,40 +133,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F.edmx",
-              "RelativeDocumentMoniker": "MedLab\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F.edmx",
-              "ToolTip": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F.edmx [Diagram1]",
-              "RelativeToolTip": "MedLab\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-05-06T16:36:35.684Z",
-              "EditorCaption": " [Diagram1]"
+              "DocumentIndex": 5,
+              "Title": "LabIslWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\LabIslWindow.xaml",
+              "RelativeDocumentMoniker": "MedLab\\LabIslWindow.xaml",
+              "ToolTip": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\LabIslWindow.xaml",
+              "RelativeToolTip": "MedLab\\LabIslWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-06T17:41:53.505Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "LabIslWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\LabIslWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MedLab\\LabIslWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\LabIslWindow.xaml.cs",
+              "RelativeToolTip": "MedLab\\LabIslWindow.xaml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAiwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T17:46:20.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BuhgalterWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\BuhgalterWindow.xaml",
+              "RelativeDocumentMoniker": "MedLab\\BuhgalterWindow.xaml",
+              "ToolTip": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\BuhgalterWindow.xaml",
+              "RelativeToolTip": "MedLab\\BuhgalterWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-06T17:41:51.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MedLab\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\MainWindow.xaml",
               "RelativeToolTip": "MedLab\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-06T07:26:43.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MedLab\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Horomi_tyan\\Desktop\\MedLab\\MedLab\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MedLab\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T07:26:41.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-06T07:26:43.001Z"
             }
           ]
         }

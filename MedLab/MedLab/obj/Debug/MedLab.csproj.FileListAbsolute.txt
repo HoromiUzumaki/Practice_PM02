@@ -43,3 +43,9 @@ C:\Users\Horomi_tyan\Desktop\MedLab\MedLab\obj\Debug\MedLab.csproj.CoreCompileIn
 C:\Users\Horomi_tyan\Desktop\MedLab\MedLab\obj\Debug\MedLab.csproj.Up2Date
 C:\Users\Horomi_tyan\Desktop\MedLab\MedLab\obj\Debug\MedLab.exe
 C:\Users\Horomi_tyan\Desktop\MedLab\MedLab\obj\Debug\MedLab.pdb
+C:\Users\Horomi_tyan\Desktop\MedLab\MedLab\obj\Debug\biomaterials.g.cs
+C:\Users\Horomi_tyan\Desktop\MedLab\MedLab\obj\Debug\generating reports.g.cs
+C:\Users\Horomi_tyan\Desktop\MedLab\MedLab\obj\Debug\biomaterials.baml
+C:\Users\Horomi_tyan\Desktop\MedLab\MedLab\obj\Debug\generating reports.baml
+C:\Users\Horomi_tyan\Desktop\MedLab\MedLab\obj\Debug\analizators.g.cs
+C:\Users\Horomi_tyan\Desktop\MedLab\MedLab\obj\Debug\analizators.baml

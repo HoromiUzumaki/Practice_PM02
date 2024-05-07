@@ -21,8 +21,9 @@ namespace MedLab
             this.Дополнительная_информация = new HashSet<Дополнительная_информация>();
             this.Заказ = new HashSet<Заказ>();
             this.Оказанные_услуги = new HashSet<Оказанные_услуги>();
-            this.Услуга = new HashSet<Услуга>();
+            this.Работа_с_биоматериалами = new HashSet<Работа_с_биоматериалами>();
             this.Счета_страховым_компаниям = new HashSet<Счета_страховым_компаниям>();
+            this.Услуга = new HashSet<Услуга>();
         }
     
         public int Код_пользователя { get; set; }
@@ -41,8 +42,10 @@ namespace MedLab
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Оказанные_услуги> Оказанные_услуги { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Услуга> Услуга { get; set; }
+        public virtual ICollection<Работа_с_биоматериалами> Работа_с_биоматериалами { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Счета_страховым_компаниям> Счета_страховым_компаниям { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Услуга> Услуга { get; set; }
     }
 }

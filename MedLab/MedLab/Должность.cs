@@ -18,6 +18,7 @@ namespace MedLab
         public Должность()
         {
             this.Пользователи = new HashSet<Пользователи>();
+            this.Работа_с_биоматериалами = new HashSet<Работа_с_биоматериалами>();
             this.Услуга = new HashSet<Услуга>();
         }
     
@@ -26,6 +27,8 @@ namespace MedLab
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Пользователи> Пользователи { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Работа_с_биоматериалами> Работа_с_биоматериалами { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Услуга> Услуга { get; set; }
     }

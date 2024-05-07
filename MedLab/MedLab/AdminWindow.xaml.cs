@@ -31,5 +31,23 @@ namespace MedLab
             this.Close();
            
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            generating_reports gr = new generating_reports();
+            gr.Show();
+            this.Close();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+
+            using (var context = new ЛабораторияEntities5()) 
+            {
+                var authorizationData = context.Авторизация.ToList(); // Получаем все данные из таблицы "Авторизация"
+
+                data.ItemsSource = authorizationData; // Устанавливаем источник данных для DataGrid
+            }
+        }
     }
 }
