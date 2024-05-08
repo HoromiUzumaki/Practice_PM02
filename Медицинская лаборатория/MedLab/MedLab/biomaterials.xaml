@@ -1,0 +1,39 @@
+﻿<Window x:Class="MedLab.biomaterials"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MedLab"
+        mc:Ignorable="d"
+         Title="Работа с биоматериалами" Height="560" Width="800">
+    <Grid>
+        <Rectangle HorizontalAlignment="Center" Height="36" Stroke="ForestGreen" VerticalAlignment="Top" Width="800" Fill="ForestGreen"/>
+        <Label Content="Код взятия материала" HorizontalAlignment="Left" Margin="45,56,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" Height="30" Width="155"/>
+        <Label Content="Дата взятия материала" HorizontalAlignment="Left" Margin="45,110,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" Height="30" Width="155"/>
+        <Label Content="Вид материала" HorizontalAlignment="Left" Margin="45,169,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" Height="30" Width="155"/>
+        <Label Content="Код сотрудника, взявшего материал" HorizontalAlignment="Left" Margin="45,0,0,0" VerticalAlignment="Center" FontFamily="Comic Sans MS" FontWeight="Bold" Height="30" Width="246"/>
+        <Label Content="Код должности сотрудника" HorizontalAlignment="Left" Margin="45,287,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" Height="30" Width="246"/>
+        <Label Content="Наименование должности сотрудника" HorizontalAlignment="Left" Margin="45,350,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" Height="30" Width="246"/>
+        <TextBox x:Name="_1" HorizontalAlignment="Left" Margin="45,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" FontFamily="Comic Sans MS"/>
+        <TextBox x:Name="_2" HorizontalAlignment="Left" Margin="45,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" FontFamily="Comic Sans MS"/>
+        <TextBox x:Name="_3" HorizontalAlignment="Left" Margin="45,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" FontFamily="Comic Sans MS"/>
+        <DatePicker x:Name="date" HorizontalAlignment="Left" Margin="45,140,0,0" VerticalAlignment="Top" Width="294"/>
+        <TextBox x:Name="_4" HorizontalAlignment="Left" Margin="45,317,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" FontFamily="Comic Sans MS"/>
+        <TextBox x:Name="_5" HorizontalAlignment="Left" Margin="45,380,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" FontFamily="Comic Sans MS"/>
+        <Button Content="Занести данные" HorizontalAlignment="Left" Margin="122,421,0,0" VerticalAlignment="Top" Height="36" Width="140" FontFamily="Comic Sans MS" FontWeight="Bold" FontSize="16" Click="Button_Click"/>
+        <Label Content="Код пробирки" HorizontalAlignment="Left" Margin="461,56,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" Height="30" Width="155"/>
+        <TextBox x:Name="_6" HorizontalAlignment="Left" Margin="461,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" FontFamily="Comic Sans MS"/>
+        <Label Content="Штрих код:" HorizontalAlignment="Left" Margin="461,107,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" Height="30" Width="155" FontSize="16"/>
+        <ComboBox x:Name="comboBarcodeType" HorizontalAlignment="Left" Margin="461,176,0,0" VerticalAlignment="Top" Width="294"  />
+
+
+        <Label Content="Тип штрих кода" HorizontalAlignment="Left" Margin="461,141,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" Height="30" Width="155" FontSize="16"/>
+        <Label Content="Тип изображения" HorizontalAlignment="Left" Margin="461,203,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" Height="30" Width="155" FontSize="16"/>
+        <RadioButton Name="rbPng" Content="Png" GroupName="rbImageType" Margin="461,233,288,231" Width="51" Height="20" FontSize="14" IsChecked="True"/>
+        <RadioButton Name="rbJpg" Content="Jpeg" GroupName="rbImageType" Margin="557,233,192,231" Width="51" Height="20" FontSize="14"/>
+        <RadioButton Name="rbBmp" Content="Bmp" GroupName="rbImageType" Margin="642,233,107,231" Width="51" Height="20" FontSize="14"/>
+        <CheckBox Name="cbGenerateWithOptions" Height="20" Margin="461,255,45,209" Content="Создать с доп.возможностями" />
+        <Image Name="imgDynamic" Margin="468,310,42,85" Stretch="None" />
+        <Button Name="btnGenerate" Click="btnGenerate_Click" Content="Создать штрих код" HorizontalAlignment="Left" Margin="538,480,0,0" VerticalAlignment="Top" Height="28" Width="180" FontSize="16" FontWeight="Bold" FontFamily="Comic Sans MS"/>
+    </Grid>
+</Window>
