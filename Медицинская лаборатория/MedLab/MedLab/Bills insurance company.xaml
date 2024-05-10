@@ -21,7 +21,8 @@
         <TextBox x:Name="_5" HorizontalAlignment="Left" Margin="27,363,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="478" FontFamily="Comic Sans MS"/>
         <Label Content="Общая сумма" HorizontalAlignment="Left" Margin="27,398,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" FontSize="18" Width="151"/>
         <TextBox x:Name="_6" HorizontalAlignment="Left" Margin="27,438,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="478" FontFamily="Comic Sans MS"/>
-        <Button Content="Внести данные" HorizontalAlignment="Left" Margin="84,472,0,0" VerticalAlignment="Top" Height="34" Width="299" FontSize="18" FontWeight="Bold" FontFamily="Comic Sans MS" Click="Button_Click"/>
+        <Button Content="Внести данные" HorizontalAlignment="Left" Margin="84,472,0,0" VerticalAlignment="Top" Height="34" Width="182" FontSize="18" FontWeight="Bold" FontFamily="Comic Sans MS" Click="Button_Click"/>
+        <Button Content="Сохранить в CSV" HorizontalAlignment="Left" Margin="284,472,0,0" VerticalAlignment="Top" Height="34" Width="182" FontSize="18" FontWeight="Bold" FontFamily="Comic Sans MS" Click="Button_Click_1"/>
 
     </Grid>
 </Window>

@@ -10,7 +10,8 @@
         <Rectangle HorizontalAlignment="Center" Height="36" Stroke="ForestGreen" VerticalAlignment="Top" Width="800" Fill="ForestGreen"/>
         <DataGrid x:Name="data2"  Margin="34,51,34,51"/>
         <Label Content="Отчеты" HorizontalAlignment="Left" Margin="93,1,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" FontSize="18"/>
-        <Button Content="Распечатать" HorizontalAlignment="Center" Margin="0,388,0,0" VerticalAlignment="Top" Height="36" Width="246" FontWeight="Bold" FontSize="20" FontFamily="Comic Sans MS" Click="Button_Click"/>
+        <Button Content="Показать записи" HorizontalAlignment="Left" Margin="110,388,0,0" VerticalAlignment="Top" Height="36" Width="246" FontWeight="Bold" FontSize="20" FontFamily="Comic Sans MS" Click="Button_Click"/>
+        <Button Content="Распечатать" HorizontalAlignment="Left" Margin="389,388,0,0" VerticalAlignment="Top" Height="36" Width="246" FontWeight="Bold" FontSize="20" FontFamily="Comic Sans MS" Click="Button_Click_1"/>
 
     </Grid>
 </Window>

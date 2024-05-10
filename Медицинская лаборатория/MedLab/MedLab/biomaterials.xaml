@@ -11,12 +11,12 @@
         <Label Content="Код взятия материала" HorizontalAlignment="Left" Margin="45,56,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" Height="30" Width="155"/>
         <Label Content="Дата взятия материала" HorizontalAlignment="Left" Margin="45,110,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" Height="30" Width="155"/>
         <Label Content="Вид материала" HorizontalAlignment="Left" Margin="45,169,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" Height="30" Width="155"/>
-        <Label Content="Код сотрудника, взявшего материал" HorizontalAlignment="Left" Margin="45,0,0,0" VerticalAlignment="Center" FontFamily="Comic Sans MS" FontWeight="Bold" Height="30" Width="246"/>
+        <Label Content="Код сотрудника, взявшего материал" HorizontalAlignment="Left" Margin="45,223,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" Height="30" Width="246"/>
         <Label Content="Код должности сотрудника" HorizontalAlignment="Left" Margin="45,287,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" Height="30" Width="246"/>
         <Label Content="Наименование должности сотрудника" HorizontalAlignment="Left" Margin="45,350,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" Height="30" Width="246"/>
         <TextBox x:Name="_1" HorizontalAlignment="Left" Margin="45,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" FontFamily="Comic Sans MS"/>
         <TextBox x:Name="_2" HorizontalAlignment="Left" Margin="45,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" FontFamily="Comic Sans MS"/>
-        <TextBox x:Name="_3" HorizontalAlignment="Left" Margin="45,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" FontFamily="Comic Sans MS"/>
+        <TextBox x:Name="_3" HorizontalAlignment="Left" Margin="45,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" FontFamily="Comic Sans MS"/>
         <DatePicker x:Name="date" HorizontalAlignment="Left" Margin="45,140,0,0" VerticalAlignment="Top" Width="294"/>
         <TextBox x:Name="_4" HorizontalAlignment="Left" Margin="45,317,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" FontFamily="Comic Sans MS"/>
         <TextBox x:Name="_5" HorizontalAlignment="Left" Margin="45,380,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" FontFamily="Comic Sans MS"/>

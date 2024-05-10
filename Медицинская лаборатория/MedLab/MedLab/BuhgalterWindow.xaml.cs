@@ -40,7 +40,9 @@ namespace MedLab
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-
+            Bills_insurance_company bw = new Bills_insurance_company();
+            bw.Show();
+            this.Close();
         }
     }
 }
