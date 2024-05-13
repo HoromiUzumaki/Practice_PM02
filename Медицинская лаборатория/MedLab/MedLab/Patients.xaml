@@ -1,0 +1,37 @@
+﻿<Window x:Class="MedLab.Patients"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MedLab"
+        mc:Ignorable="d"
+        Title="Patients" Height="380" Width="700">
+    <Grid>
+        <Rectangle HorizontalAlignment="Center" Height="36" Stroke="ForestGreen" VerticalAlignment="Top" Width="700" Fill="ForestGreen"/>
+        <Label Content="Добавление и изменение пациентов" HorizontalAlignment="Center" Margin="0,-1,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="20" FontWeight="Bold"/>
+        <TextBox x:Name="_1" HorizontalAlignment="Left" Margin="212,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Comic Sans MS"/>
+        <TextBox x:Name="_2" HorizontalAlignment="Left" Margin="162,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170" FontFamily="Comic Sans MS"/>
+        <TextBox x:Name="_3" HorizontalAlignment="Left" Margin="162,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170" FontFamily="Comic Sans MS"/>
+        <TextBox x:Name="_4" HorizontalAlignment="Left" Margin="162,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170" FontFamily="Comic Sans MS"/>
+        <TextBox x:Name="_5" HorizontalAlignment="Left" Margin="239,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" FontFamily="Comic Sans MS"/>
+        <TextBox x:Name="_6" HorizontalAlignment="Left" Margin="212,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Comic Sans MS"/>
+        <TextBox x:Name="_7" HorizontalAlignment="Left" Margin="497,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Comic Sans MS"/>
+        <TextBox x:Name="_8" HorizontalAlignment="Left" Margin="497,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Comic Sans MS"/>
+        <TextBox x:Name="_9" HorizontalAlignment="Left" Margin="442,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" FontFamily="Comic Sans MS"/>
+        <TextBox x:Name="_10" HorizontalAlignment="Left" Margin="544,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="73" FontFamily="Comic Sans MS"/>
+        <TextBox x:Name="_11" HorizontalAlignment="Left" Margin="544,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="73" FontFamily="Comic Sans MS"/>
+        <Label Content="Код пользователя" HorizontalAlignment="Left" Margin="95,45,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold"/>
+        <Label Content="Фамилия" HorizontalAlignment="Left" Margin="95,82,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold"/>
+        <Label Content="Имя" HorizontalAlignment="Left" Margin="95,122,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" Width="58"/>
+        <Label Content="Отчество" HorizontalAlignment="Left" Margin="95,158,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" Width="67"/>
+        <Label Content="Код доп.информации" HorizontalAlignment="Left" Margin="95,194,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" Width="144"/>
+        <Label Content="Серия паспорта" HorizontalAlignment="Left" Margin="95,238,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" Width="111"/>
+        <Label Content="Номер паспорта" HorizontalAlignment="Left" Margin="386,45,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" Width="111"/>
+        <Label Content="Номер телефона" HorizontalAlignment="Left" Margin="386,82,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" Width="111"/>
+        <Label Content="E-mail" HorizontalAlignment="Left" Margin="386,122,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" Width="56"/>
+        <Label Content="Номер страх.компании" HorizontalAlignment="Left" Margin="386,158,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" Width="158"/>
+        <Label Content="Номер страх.полиса" HorizontalAlignment="Left" Margin="386,195,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontWeight="Bold" Width="153"/>
+        <Button x:Name="save" Content="Занести данные в базу данных" HorizontalAlignment="Left" Margin="95,294,0,0" VerticalAlignment="Top" Width="522" FontFamily="Comic Sans MS" FontWeight="Bold" Click="save_Click"/>
+
+    </Grid>
+</Window>

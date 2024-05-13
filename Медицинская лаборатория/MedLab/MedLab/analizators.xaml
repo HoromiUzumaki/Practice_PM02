@@ -1,0 +1,21 @@
+﻿<Window x:Class="MedLab.analizators"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MedLab"
+        mc:Ignorable="d"
+        Title="analizators" Height="490" Width="850">
+    <Grid>
+        <Rectangle HorizontalAlignment="Center" Height="36" Stroke="ForestGreen" VerticalAlignment="Top" Width="850" Fill="ForestGreen"/>
+        <Label Content="Работа с анализаторами" HorizontalAlignment="Center" Margin="0,60,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="20" FontWeight="Bold"/>
+        <DataGrid x:Name="data1" Margin="10,103,10,119"/>
+        <Button Content="Анализаторы" HorizontalAlignment="Left" Margin="15,382,0,0" VerticalAlignment="Top" Height="28" Width="95" FontFamily="Comic Sans MS" FontWeight="Bold" Click="Button_Click"/>
+        <Button Content="Работа анализаторов" HorizontalAlignment="Left" Margin="127,382,0,0" VerticalAlignment="Top" Height="28" Width="146" FontFamily="Comic Sans MS" FontWeight="Bold" Click="Button_Click_1"/>
+        <Button Content="Редактирование записей анализаторов" HorizontalAlignment="Left" Margin="297,382,0,0" VerticalAlignment="Top" Height="28" Width="239" FontFamily="Comic Sans MS" FontWeight="Bold" Click="Button_Click_2"/>
+        <Button Content="Редактирование записей работы анализаторов" HorizontalAlignment="Left" Margin="555,382,0,0" VerticalAlignment="Top" Height="28" Width="285" FontFamily="Comic Sans MS" FontWeight="Bold" Click="Button_Click_3"/>
+        <Button Content="Сохранить изменения анализаторов" HorizontalAlignment="Left" Margin="297,430,0,0" VerticalAlignment="Top" Width="239" FontFamily="Comic Sans MS" FontWeight="Bold" Click="Button_Click_4"/>
+        <Button Content="Сохранить изменения работы анализаторов" HorizontalAlignment="Left" Margin="555,430,0,0" VerticalAlignment="Top" Width="285" FontFamily="Comic Sans MS" FontWeight="Bold" Click="Button_Click_5"/>
+
+    </Grid>
+</Window>
