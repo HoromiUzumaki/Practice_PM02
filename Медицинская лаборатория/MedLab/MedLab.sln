@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedLab", "MedLab\MedLab.csproj", "{149F9F7C-0771-4590-B613-C852AC98C5E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedLabTest", "MedLabTest\MedLabTest.csproj", "{6F99FD70-77B7-4D3E-9B2D-C8BB73164BB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{149F9F7C-0771-4590-B613-C852AC98C5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{149F9F7C-0771-4590-B613-C852AC98C5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{149F9F7C-0771-4590-B613-C852AC98C5E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F99FD70-77B7-4D3E-9B2D-C8BB73164BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F99FD70-77B7-4D3E-9B2D-C8BB73164BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F99FD70-77B7-4D3E-9B2D-C8BB73164BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F99FD70-77B7-4D3E-9B2D-C8BB73164BB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -66,7 +66,7 @@ namespace MedLab
 
             MessageBox.Show("Данные успешно добавлены в базу данных!");
         }
-        private string GenerateBarcode(Barcode barcode)
+        public string GenerateBarcode(Barcode barcode)
         {
             // Путь к изображению
             string imagePath = comboBarcodeType.Text + "." + barcode.ImageType;
@@ -79,7 +79,7 @@ namespace MedLab
 
             return imagePath;
         }
-        private string GenerateBarcodeWithOptions(Barcode barcode)
+        public string GenerateBarcodeWithOptions(Barcode barcode)
         {
             // Путь к изображению
             string imagePath = comboBarcodeType.Text + "." + barcode.ImageType;
@@ -222,5 +222,9 @@ namespace MedLab
             }
         }
 
+        public string GenerateBarcode()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

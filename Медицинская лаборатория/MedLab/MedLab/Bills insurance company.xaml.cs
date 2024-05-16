@@ -27,6 +27,11 @@ namespace MedLab
             db = new ЛабораторияEntities2();
         }
 
+        public void Button_Click(object value1, object value2)
+        {
+            throw new NotImplementedException();
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             // Получить значения из полей ввода
