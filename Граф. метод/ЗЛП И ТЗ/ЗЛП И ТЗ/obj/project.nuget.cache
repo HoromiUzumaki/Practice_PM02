@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OotRPjDlyiwjurFSdhWB06GySUsIC3kw5l483iBPHnTo6VoB2bY4FmYbw0TARODB3xaKKAPbxK2RQ9DJJS/v9g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Horomi_tyan\\Desktop\\ЗЛП И ТЗ\\ЗЛП И ТЗ\\ЗЛП И ТЗ.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Horomi_tyan\\.nuget\\packages\\winforms.datavisualization\\1.9.2\\winforms.datavisualization.1.9.2.nupkg.sha512"
+  ],
+  "logs": []
+}
