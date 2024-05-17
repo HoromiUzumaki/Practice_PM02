@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ЗЛП И ТЗ")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c38dad1a7ba2682dacc526c0ec1d3119ae26df15")]
 [assembly: System.Reflection.AssemblyProductAttribute("ЗЛП И ТЗ")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ЗЛП И ТЗ")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

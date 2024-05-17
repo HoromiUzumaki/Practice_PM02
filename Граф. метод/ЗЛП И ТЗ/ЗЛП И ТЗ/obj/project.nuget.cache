@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OotRPjDlyiwjurFSdhWB06GySUsIC3kw5l483iBPHnTo6VoB2bY4FmYbw0TARODB3xaKKAPbxK2RQ9DJJS/v9g==",
+  "dgSpecHash": "6SwUQInYhN3iclO3NWlTKWjdE5reGrr0q2F031kGeNTG0JpurRk9t5AI6sgWUYsJylduj4eFeblSeNQgu6e9Vg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Horomi_tyan\\Desktop\\ЗЛП И ТЗ\\ЗЛП И ТЗ\\ЗЛП И ТЗ.csproj",
+  "projectFilePath": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\Граф. метод\\ЗЛП И ТЗ\\ЗЛП И ТЗ\\ЗЛП И ТЗ.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Horomi_tyan\\.nuget\\packages\\winforms.datavisualization\\1.9.2\\winforms.datavisualization.1.9.2.nupkg.sha512"
   ],

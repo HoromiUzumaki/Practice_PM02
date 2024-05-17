@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\medlab\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\medlab\\analizators.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\analizators.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\medlab\\generating reports.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\generating reports.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\medlab\\patients.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\patients.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\medlab\\bills insurance company.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\bills insurance company.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\medlab\\biomaterials.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\biomaterials.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6F99FD70-77B7-4D3E-9B2D-C8BB73164BB6}|MedLabTest\\MedLabTest.csproj|c:\\users\\horomi_tyan\\documents\\practice_pm02\\\u043C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\medlab\\medlabtest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F99FD70-77B7-4D3E-9B2D-C8BB73164BB6}|MedLabTest\\MedLabTest.csproj|solutionrelative:medlabtest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|c:\\users\\horomi_tyan\\documents\\practice_pm02\\\u043C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\medlab\\medlab\\bills insurance company.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\bills insurance company.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|c:\\users\\horomi_tyan\\documents\\practice_pm02\\\u043C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\medlab\\medlab\\biomaterials.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\biomaterials.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|c:\\users\\horomi_tyan\\documents\\practice_pm02\\\u043C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\medlab\\medlab\\biomaterials.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\medlab\\biomaterials.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\biomaterials.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|c:\\users\\horomi_tyan\\documents\\practice_pm02\\\u043C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\medlab\\medlab\\analizators.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\analizators.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\medlab\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|c:\\users\\horomi_tyan\\documents\\practice_pm02\\\u043C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\medlab\\medlab\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|c:\\users\\horomi_tyan\\documents\\practice_pm02\\\u043C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\medlab\\medlab\\patients.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\patients.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|c:\\users\\horomi_tyan\\documents\\practice_pm02\\\u043C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\medlab\\medlab\\generating reports.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{149F9F7C-0771-4590-B613-C852AC98C5E9}|MedLab\\MedLab.csproj|solutionrelative:medlab\\generating reports.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,97 +54,109 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "biomaterials.xaml",
-              "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\MedLab\\biomaterials.xaml",
-              "RelativeDocumentMoniker": "MedLab\\biomaterials.xaml",
-              "ToolTip": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\MedLab\\biomaterials.xaml",
-              "RelativeToolTip": "MedLab\\biomaterials.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-16T09:10:24.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\MedLab\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MedLab\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\MedLab\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MedLab\\MainWindow.xaml.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:40:55.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "biomaterials.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\MedLab\\biomaterials.xaml.cs",
               "RelativeDocumentMoniker": "MedLab\\biomaterials.xaml.cs",
               "ToolTip": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\MedLab\\biomaterials.xaml.cs",
               "RelativeToolTip": "MedLab\\biomaterials.xaml.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAuwEQAAAAOAAAA",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAAwEQAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T07:40:36.587Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Bills insurance company.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\MedLab\\Bills insurance company.xaml.cs",
               "RelativeDocumentMoniker": "MedLab\\Bills insurance company.xaml.cs",
               "ToolTip": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\MedLab\\Bills insurance company.xaml.cs",
               "RelativeToolTip": "MedLab\\Bills insurance company.xaml.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAQwCIAAABCAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAqwCIAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T07:40:33.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Patients.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\MedLab\\Patients.xaml.cs",
               "RelativeDocumentMoniker": "MedLab\\Patients.xaml.cs",
               "ToolTip": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\MedLab\\Patients.xaml.cs",
               "RelativeToolTip": "MedLab\\Patients.xaml.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAowAAAAAAAAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T07:40:19.381Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "generating reports.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\MedLab\\generating reports.xaml.cs",
               "RelativeDocumentMoniker": "MedLab\\generating reports.xaml.cs",
               "ToolTip": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\MedLab\\generating reports.xaml.cs",
               "RelativeToolTip": "MedLab\\generating reports.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T07:17:38.487Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "analizators.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\MedLab\\analizators.xaml.cs",
               "RelativeDocumentMoniker": "MedLab\\analizators.xaml.cs",
               "ToolTip": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\MedLab\\analizators.xaml.cs",
               "RelativeToolTip": "MedLab\\analizators.xaml.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAIAzwEQAAAAUAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAMwEQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T07:37:41.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\MedLab\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MedLab\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\MedLab\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MedLab\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T07:40:55.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\MedLabTest\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "MedLabTest\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\MedLabTest\\UnitTest1.cs",
+              "RelativeToolTip": "MedLabTest\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T07:37:21.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "biomaterials.xaml",
+              "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\MedLab\\biomaterials.xaml",
+              "RelativeDocumentMoniker": "MedLab\\biomaterials.xaml",
+              "ToolTip": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\MedLab\\biomaterials.xaml",
+              "RelativeToolTip": "MedLab\\biomaterials.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-16T09:10:24.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "AdminWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\MedLab\\AdminWindow.xaml.cs",
               "RelativeDocumentMoniker": "MedLab\\AdminWindow.xaml.cs",
@@ -152,21 +164,7 @@
               "RelativeToolTip": "MedLab\\AdminWindow.xaml.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAowB4AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T06:33:47.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\MedLabTest\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "MedLabTest\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\\u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u0430\u044F \u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F\\MedLab\\MedLabTest\\UnitTest1.cs",
-              "RelativeToolTip": "MedLabTest\\UnitTest1.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwBYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T07:37:21.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T06:33:47.842Z"
             }
           ]
         }

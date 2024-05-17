@@ -85,11 +85,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Horomi_tyan\\Desktop\\ЗЛП И ТЗ\\ЗЛП И ТЗ\\ЗЛП И ТЗ.csproj",
+      "projectUniqueName": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\Граф. метод\\ЗЛП И ТЗ\\ЗЛП И ТЗ\\ЗЛП И ТЗ.csproj",
       "projectName": "ЗЛП И ТЗ",
-      "projectPath": "C:\\Users\\Horomi_tyan\\Desktop\\ЗЛП И ТЗ\\ЗЛП И ТЗ\\ЗЛП И ТЗ.csproj",
+      "projectPath": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\Граф. метод\\ЗЛП И ТЗ\\ЗЛП И ТЗ\\ЗЛП И ТЗ.csproj",
       "packagesPath": "C:\\Users\\Horomi_tyan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Horomi_tyan\\Desktop\\ЗЛП И ТЗ\\ЗЛП И ТЗ\\obj\\",
+      "outputPath": "C:\\Users\\Horomi_tyan\\Documents\\Practice_PM02\\Граф. метод\\ЗЛП И ТЗ\\ЗЛП И ТЗ\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Horomi_tyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
